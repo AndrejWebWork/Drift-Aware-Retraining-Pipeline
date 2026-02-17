@@ -1,0 +1,49 @@
+# Drift-Aware Retraining Pipeline - Dependencies
+# 100% Free and Open-Source
+
+# Core Scientific Computing
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Model Registry & Experiment Tracking
+mlflow>=2.0.0
+
+# Orchestration (Free Tier)
+prefect>=2.0.0
+
+# Monitoring & Metrics
+prometheus-client>=0.14.0
+
+# Continual Learning
+avalanche-lib>=0.3.0
+
+# Explainability
+shap>=0.41.0
+
+# Data Validation
+great-expectations>=0.15.0
+
+# Utilities
+python-dateutil>=2.8.0
+pyyaml>=6.0
+
+# Optional: Deep Learning (CPU-only, free)
+# torch>=1.12.0+cpu
+# tensorflow>=2.10.0
+
+# Optional: NLP/Vision Embeddings (free)
+# sentence-transformers>=2.2.0
+# transformers>=4.20.0
+
+# Development & Testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+black>=22.0.0
+flake8>=4.0.0
+
+# Documentation
+sphinx>=4.5.0
+sphinx-rtd-theme>=1.0.0
